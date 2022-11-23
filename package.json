@@ -46,7 +46,7 @@
         "@zardoy/vscode-utils": "^0.0.46"
     },
     "devDependencies": {
-        "@types/vscode": "^1.73.1",
+        "@types/vscode": "1.70.0",
         "@zardoy/tsconfig": "^1.5.0",
         "eslint": "^8.28.0",
         "eslint-config-zardoy": "^0.2.15",
