@@ -38,7 +38,7 @@
     ],
     "scripts": {
         "start": "vscode-framework start",
-        "build": "tsc && vscode-framework start",
+        "build": "tsc && vscode-framework build",
         "lint": "eslint src/**"
     },
     "dependencies": {
