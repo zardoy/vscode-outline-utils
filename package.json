@@ -1,0 +1,65 @@
+{
+    "name": "outline-utils",
+    "displayName": "Outline Utils",
+    "publisher": "zardoy",
+    "version": "0.0.0-dev",
+    "license": "MIT",
+    "categories": [
+        "Other"
+    ],
+    "contributes": {
+        "commands": [
+            {
+                "command": "copyOutlineItemName",
+                "title": "Copy Outline Item Name"
+            },
+            {
+                "command": "selectOutlineItem",
+                "title": "Select Outline Item"
+            },
+            {
+                "command": "copyCurrentOutlinePath",
+                "title": "Copy Current Outline Path"
+            },
+            {
+                "command": "openOutlineItemInNewEditor",
+                "title": "Open Outline Item in New Editor"
+            }
+        ]
+    },
+    "activationEvents": [
+        "onCommands"
+    ],
+    "keywords": [
+        "breadcrumbs",
+        "copy",
+        "select",
+        "location path"
+    ],
+    "scripts": {
+        "start": "vscode-framework start",
+        "build": "tsc && vscode-framework start",
+        "lint": "eslint src/**"
+    },
+    "dependencies": {
+        "vscode-framework": "^0.0.18",
+        "@zardoy/vscode-utils": "^0.0.46"
+    },
+    "devDependencies": {
+        "@types/vscode": "^1.73.1",
+        "@zardoy/tsconfig": "^1.5.0",
+        "eslint": "^8.28.0",
+        "eslint-config-zardoy": "^0.2.15",
+        "typescript": "^4.9.3"
+    },
+    "prettier": {
+        "semi": false,
+        "singleQuote": true,
+        "proseWrap": "never",
+        "tabWidth": 4,
+        "trailingComma": "all",
+        "arrowParens": "avoid",
+        "printWidth": 160,
+        "endOfLine": "auto"
+    }
+}
