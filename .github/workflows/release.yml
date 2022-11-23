@@ -8,6 +8,8 @@ jobs:
   release:
     runs-on: ubuntu-latest
     steps:
+      - run: npm -v
+      - run: node -v
       - uses: actions/checkout@v2
       - run: npx prettier --check src/**
       - name: Cache pnpm modules
