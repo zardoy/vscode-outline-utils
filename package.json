@@ -25,6 +25,14 @@
             {
                 "command": "openOutlineItemInNewEditor",
                 "title": "Open Outline Item in New Editor"
+            },
+            {
+                "command": "goToStartOfOutlineItem",
+                "title": "Go to Start of Outline Item"
+            },
+            {
+                "command": "toggleOutlineItemComment",
+                "title": "Toggle Outline Item Comment"
             }
         ]
     },
