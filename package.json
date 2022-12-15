@@ -51,8 +51,9 @@
         "lint": "eslint src/**"
     },
     "dependencies": {
-        "vscode-framework": "^0.0.18",
-        "@zardoy/vscode-utils": "^0.0.46"
+        "@zardoy/vscode-utils": "^0.0.46",
+        "string-dedent": "^3.0.1",
+        "vscode-framework": "^0.0.18"
     },
     "devDependencies": {
         "@types/vscode": "1.70.0",

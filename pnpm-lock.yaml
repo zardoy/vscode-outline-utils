@@ -6,11 +6,13 @@ specifiers:
   '@zardoy/vscode-utils': ^0.0.46
   eslint: ^8.28.0
   eslint-config-zardoy: ^0.2.15
+  string-dedent: ^3.0.1
   typescript: ^4.9.3
   vscode-framework: ^0.0.18
 
 dependencies:
   '@zardoy/vscode-utils': 0.0.46_qbbu5mow6a7gujpckanzhuldg4
+  string-dedent: 3.0.1
   vscode-framework: 0.0.18_ic5wtfdzjoxbsxhpiwqjkevljm
 
 devDependencies:
@@ -3698,6 +3700,11 @@ packages:
   /statuses/1.5.0:
     resolution: {integrity: sha512-OpZ3zP+jT1PI7I8nemJX4AKmAX070ZkYPVWV/AaKTJl+tXCTGyVdC1a4SL8RUQYEwk/f34ZX8UTykN68FwrqAA==}
     engines: {node: '>= 0.6'}
+    dev: false
+
+  /string-dedent/3.0.1:
+    resolution: {integrity: sha512-A2zCXSgpPrpFi1lDJlDwIPYakBWeDtQZ8ZBKssB8M/WbtNEKTzsl1yCDRmHx55jSB27xZDQ6NOtRYekESWx6fw==}
+    engines: {node: '>=0.12.0'}
     dev: false
 
   /string-width/4.2.3:
